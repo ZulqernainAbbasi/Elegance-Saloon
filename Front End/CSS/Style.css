@@ -1,0 +1,427 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+.navbar-brand img{
+    width: 220px;
+    height: 80px;
+}
+
+.navbar-nav>li>a{
+    color: rgb(46, 37, 37) !important;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    transition: .2s linear;
+}
+
+.navbar-nav>li>a:hover{
+    color: rgb(122, 83, 83) !important;
+    transition: .2s linear;
+}
+
+.firstSection .card-img-overlay{
+    margin-top: 280px;
+    margin-left: 50px;
+    color: rgb(122, 83, 83);
+}
+
+.firstSection .card-img-overlay .card-title{
+    font-size: 90px;
+    font-weight: 350;
+}
+
+.firstSection .card-img-overlay .card-text{
+    font-size: 40px;
+}
+
+.secondSection .text{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.secondSection .text h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.secondSection img{
+    width: 100px;
+
+}
+
+.secondSection .text p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.container{
+    margin-top: 50px;
+}
+.row .col {
+    text-align: center;
+}
+
+.text_1 {
+    font-weight: 250;
+    margin-top: 10px;
+}
+  
+.text_2 {
+    margin-top: 5px;
+    font-weight: 250;
+}
+
+.thirdSection {
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #f3e7d2, #d6c7b0);
+    color: rgb(122, 83, 83);
+}
+
+.headline {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.car-image img {
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.car-image img.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.main-title {
+    font-size: 50px;
+    color: rgb(122, 83, 83);
+    font-weight: 200;
+    margin: 20px 0;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 30px;
+}
+
+.benefits, .who-we-serve {
+    text-align: left;
+}
+
+.benefits h3, .who-we-serve h3 {
+    font-size: 20px;
+    color: rgb(122, 83, 83);
+}
+
+.benefits ul, .who-we-serve ul {
+    list-style-type: disc;
+    padding-left: 15px;
+    color: rgb(122, 83, 83);
+}
+
+.read-more {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #fff !important;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+
+.read-more:hover {
+    background-color: #fff;
+    color: black;
+    transition: .2s linear;
+}
+
+.fourthSection .row{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.fifthSection .text{
+    margin-top: 20px;
+    text-align: center;
+}
+.text h1{
+    font-weight: 100;
+    color: rgb(122, 83, 83) !important;
+}
+
+#carouselExampleSlidesOnly {
+    margin-top: 50px;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.d-block{
+    width: 800px;
+    height: fit-content;
+}
+
+.sixthSection {
+    background-color: #f9ece4;
+    padding: 2rem 0;
+}
+
+.section-heading {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.carousel .carousel-inner {
+    text-align: center;
+}
+
+.service-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.service-list li {
+    margin: 0.3rem 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.carousel-indicators button {
+    background-color: #333;
+}
+
+.carousel-indicators .active {
+    background-color: #ff7f50; 
+}
+
+.custom-arrow {
+    font-size: 2em; 
+    color: #333; 
+    background: transparent; 
+    border: none; 
+}
+
+.row>div{
+    margin-left: 50px;
+}
+
+.img-container {
+    overflow: hidden; /* Hides overflow of images when zoomed */
+}
+
+.zoom-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image fills the container without overflow */
+    transition: transform 0.3s linear; /* Smooth zoom transition */
+}
+
+.zoom-img:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+
+.eightSection .text .heading{
+    font-family:"Roboto", sans-serif ;
+    margin-top: 20px;
+    text-align: center;
+}
+.eightSection .text h1{
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 200;
+    color: black !important;
+}
+
+.eightSection .text h1>span{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: black !important;
+}
+
+.sectionNinth{
+    margin-top: 20px;
+}
+.sectionNinth div{
+    width: 800px;
+    margin-left: 20%;
+}
+
+.sectionNinth div>h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sectionNinth div>p,pre{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.tenthSection{
+    margin-top: 50px;
+}
+
+.contact-section {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;  /* Ensures space between left and right sections */
+}
+
+.contact-info {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 45%;  /* Adjust the width to fit your design */
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form {
+    width: 60%;  /* Adjust width to balance the layout */
+    margin-left: 200px;  /* Adds space between the two sections */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 45%;
+}
+
+.form-group.full-width {
+    min-width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+input:required {
+    border-color: red;
+}
+
+.submit-btn {
+    background-color: #888;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 3px;
+    transition: .2s linear;
+}
+
+.submit-btn:hover {
+    background-color: #fff;
+    color: gold;
+    transition: .2s linear;
+}
+
+.row_1, .row_2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.location {
+    margin-top: 20px;
+    flex: 1;
+    text-align: center;
+    margin-right: 10px;
+}
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+    transition:2s linear;
+  }
+  
+  /* Animated scrollbar thumb effect */
+  .scroll-active ::-webkit-scrollbar-thumb {
+    background-color: #555;
+    height: 10px; /* Makes the scrollbar thumb larger during scroll */
+  }
+    
+
+
+

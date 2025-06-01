@@ -1,0 +1,58 @@
+.secondSectionSo div>h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 55px;
+}
+
+.secondSectionSo div>p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.location-buttons .btn {
+    background-color: #b29575;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.location-buttons .btn.active {
+    background-color: #f5f1ea;
+    color: #b29575;
+    font-weight: bold;
+    border: 2px solid #b29575;
+}
+.offer-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 20px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.offer-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.btn-book {
+    background-color: #b29575;
+    color: white;
+    margin-top: 10px;
+}
+.price-section {
+    background-color: #b29575;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.offers-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
